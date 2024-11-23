@@ -2,6 +2,8 @@
 
 Deskripsi singkat tentang proyek ini dan fungsinya.
 
+Marchiano Aulia Faraitody - 1301220146
+
 ## Instalasi
 
 Cara menginstal proyek ini:
