@@ -7,15 +7,26 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #f9f9f9;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
+.register-section {
+    position: relative;
+    height: 100vh;
+    background: url('../img/Buah.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+}
+
 /* Container Utama */
-.login-container {
+.register-container {
     text-align: center;
     background-color: #fff;
     padding: 20px 30px;
@@ -23,18 +34,21 @@ body {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     width: 100%;
+    margin: 20px;
 }
 
+/* Header */
 h1 {
     font-size: 2rem;
     margin-bottom: 15px;
     font-weight: bold;
 }
 
-/* Gambar Atas */
-.login-image {
+/* Gambar */
+.register-image {
     width: 100%;
-    max-width: 2000px;
+    max-height: 200px;
+    object-fit: contain;
     margin-bottom: 20px;
 }
 
@@ -53,8 +67,8 @@ input:focus {
     border-color: #ff8c00;
 }
 
-/* Tombol Login */
-.login-button {
+/* Tombol Register */
+.register-button {
     width: 100%;
     background-color: #ff8c00;
     color: #fff;
@@ -66,22 +80,31 @@ input:focus {
     transition: background 0.3s;
 }
 
-.login-button:hover {
+.register-button:hover {
     background-color: #e07c00;
 }
 
-/* Link Daftar */
-.register-link {
+/* Link Login */
+.login-link {
     margin-top: 15px;
     font-size: 0.9rem;
 }
 
-.register-link a {
+.login-link a {
     color: #ff8c00;
     text-decoration: none;
     font-weight: bold;
 }
 
-.register-link a:hover {
+.login-link a:hover {
     text-decoration: underline;
+}
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7); /* Transparan */
+    z-index: 1;
 }
