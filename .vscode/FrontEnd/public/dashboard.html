@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - FastingMate</title>
+    <link rel="stylesheet" href="../src/css/dashboard.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Fasting<span>Mate</span></h2>
+        <ul>
+            <li class="active">Dashboard</li>
+            <li>Schedule</li>
+            <li>Count</li>
+            <li>Weight Target</li>
+            <li>History</li>
+            <li>Settings</li>
+        </ul>
+        <div class="profile">
+            <a href="profile.html">
+                <img src="img/profile.png" alt="Profile">
+            </a>
+            <p>Cecilia</p>
+            <a href="#" class="logout">Logout</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <header>
+            <h1>Hello, Cecilia</h1>
+            <p>Home</p>
+        </header>
+        <section class="weight-card">
+            <div class="weight-info">
+                <p>My Weight</p>
+                <h2>65 KG</h2>
+                <span>Ideal</span>
+            </div>
+        </section>
+        <!-- Chart Section -->
+        <div class="chart-section">
+            <h3>Grafik Berat Badan</h3>
+            <canvas id="weightChart"></canvas>
+        </div>
+
+        <!-- Eat & Drink Section -->
+        <div class="eat-drink">
+            <h3>Eat & Drink</h3>
+            <ul>
+                <li>
+                    <span>Breakfast Sausage</span>
+                    <span>3 Pieces</span>
+                    <span>100</span>
+                </li>
+                <li>
+                    <span>Orange Juice</span>
+                    <span>1 Glass</span>
+                    <span>250</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../src/js/dashboard.js"></script>
+</body>
+</html>
