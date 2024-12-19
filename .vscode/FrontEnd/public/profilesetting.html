@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Settings</title>
+    <link rel="stylesheet" href="../src/css/profilesetting.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Fasting<span>Mate</span></h2>
+        <ul>
+            <a href="dashboard.html"><li>Dashboard</li></a>
+            <li>Schedule</li>
+            <li>Count</li>
+            <li>Weight Target</li>
+            <li>History</li>
+            <li class="active">Settings</li>
+        </ul>
+        <div class="user-info">
+            <img src="profile-pic.jpg" alt="User" class="profile-pic">
+            <p>Nama</p>
+            <a href="#" class="logout">Logout</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1>Pengaturan Akun</h1>
+        <div class="profile">
+            <img src="profile-pic.jpg" alt="Profile" class="profile-picture">
+            <h2>Nama</h2>
+        </div>
+        <form id="profile-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" >
+
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" >
+
+            <label for="email">Email</label>
+            <input type="email" id="email" >
+
+            <label for="password">Password</label>
+            <input type="password" id="password" >
+
+            <label for="country">Country</label>
+            <input type="text" id="country">
+
+            <button type="button" id="save-btn">Save</button>
+        </form>
+    </div>
+    
+    <script src="../src/js/profilesetting.js"></script>
+</body>
+</html>
