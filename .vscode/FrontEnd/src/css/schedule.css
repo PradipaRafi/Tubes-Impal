@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    background-color: #ff8c00;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .sidebar h1 span {
+    color: black;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  header h2 {
+    margin-top: 0;
+  }
+  
+  .schedule-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .schedule-item {
+    background-color: #F9F9F9;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    padding: 20px;
+    width: 35%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .schedule-item h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .schedule-item ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .schedule-item ul li {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .schedule-options {
+    margin-bottom: 20px;
+  }
+  
+  .schedule-options label {
+    margin-right: 10px;
+  }
+  
+  .schedule-options select {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
