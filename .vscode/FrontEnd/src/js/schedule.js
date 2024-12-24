@@ -43,4 +43,4 @@ document.addEventListener('DOMContentLoaded', () => {
   
     renderSchedule('heavy'); // Default
   });
-  
+    
